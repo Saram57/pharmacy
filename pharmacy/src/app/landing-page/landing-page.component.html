@@ -1,0 +1,287 @@
+<!-- NAVBAR -->
+  <header>
+    <div class="navbar">
+      <div class="logo"><i class="fas fa-heart-pulse"></i> HealthCarePlus</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+      </ul>
+      <div class="navbar-buttons">
+        <a href="#" class="sign-in-btn">Sign In</a>
+        <a href="#" class="btn-primary" style="color: #fff;">Get Started</a>
+      </div>
+      <div class="hamburger" aria-label="Open menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <div class="sidebar" aria-hidden="true">
+    <div class="sidebar-header">
+      <div class="sidebar-logo"><i class="fas fa-heart-pulse"></i> HealthCarePlus</div>
+      <button class="close-sidebar" aria-label="Close menu"><i class="fas fa-times"></i></button>
+    </div>
+    <nav class="sidebar-nav">
+      <ul>
+        <li><a href="#home" onclick="closeSidebar()">Home</a></li>
+        <li><a href="#about" onclick="closeSidebar()">About</a></li>
+        <li><a href="#services" onclick="closeSidebar()">Services</a></li>
+      </ul>
+    </nav>
+    <div class="sidebar-buttons">
+      <a href="#" class="sign-in-btn">Sign In</a>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </div>
+  <div class="overlay" onclick="closeSidebar()"></div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-slide active" style="background-image:url('akram-huseyn-brbF5FSnSgI-unsplash.jpg');"></div>
+    <div class="hero-slide" style="background-image:url('arseny-togulev-DE6rYp1nAho-unsplash.jpg');"></div>
+    <div class="hero-slide" style="background-image:url('DeWatermark.ai_1760229360557.jpeg');"></div>
+
+    <div class="hero-content">
+      <h1>Transform Healthcare with <span>Intelligent Management</span></h1>
+      <p>Streamline your hospital operations with our integrated management system. Manage appointments, patient records, and medical staff easily and securely.</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Get Started</button>
+        <button class="btn-outline" >Watch Demo</button>
+      </div>
+      <!-- ---------- VIDEO MODAL ---------- -->
+<div class="video-modal" id="videoModal">
+  <div class="video-content">
+    <span class="close-video">&times;</span>
+    <iframe
+      id="demoVideo"
+      width="800"
+      height="450"
+      src=""
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
+
+    </div>
+<!--HERO  stat-->
+    <div class="hero-stats" aria-hidden="false">
+        <div class="stat-item">
+            <h3>500+</h3>
+            <p>Hospitals</p>
+        </div>
+        <div class="stat-item">
+            <h3>10K+</h3>
+            <p>Doctors</p>
+        </div>
+        <div class="stat-item">
+            <h3>1M+</h3>
+            <p>Patients</p>
+        </div>
+        <div class="stat-item">
+            <h3>99.9%</h3>
+            <p>Uptime</p>
+        </div>
+    </div>
+  </section>
+<!--about-->
+  <section class="about-system" id="about">
+        <div class="about-system-header">
+            <h2>About Our <span>System</span></h2>
+            <p>A comprehensive Hospital Management System designed to revolutionize healthcare operations</p>
+        </div>
+
+        <div class="about-system-content">
+
+            <div class="about-text-column">
+                <h3>Complete Healthcare Workflow Solution</h3>
+
+                <p>
+                    Our Hospital Management System provides a robust, scalable platform that integrates all aspects of healthcare operations. Built with modern technology and best practices, it ensures seamless coordination between doctors, patients, and pharmacists.
+                </p>
+                <p>
+                    The system features a foundational database schema with comprehensive mock data for testing and demonstration. It manages complex relationships between appointments, prescriptions, and medical records while maintaining data integrity and security.
+                </p>
+
+                <div class="feature-box">
+                    <i class="fas fa-database"></i>
+                    <div>
+                        <h4>Robust Database Architecture</h4>
+                        <p>Properly structured schema with relationships between all entities</p>
+                    </div>
+                </div>
+
+                <div class="feature-box">
+                    <i class="fas fa-users-cog"></i>
+                    <div>
+                        <h4>Multi-Role Support</h4>
+                        <p>Dedicated interfaces for doctors, patients, and pharmacists</p>
+                    </div>
+                </div>
+
+                <div class="feature-box">
+                    <i class="fas fa-file-medical"></i>
+                    <div>
+                        <h4>Complete Medical Records</h4>
+                        <p>Comprehensive patient history and prescription management</p>
+                    </div>
+                </div>
+
+                <div class="feature-box">
+                    <i class="fas fa-shield-alt"></i>
+                    <div>
+                        <h4>Secure & Compliant</h4>
+                        <p>Built with security and healthcare compliance in mind</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="about-image-column">
+                <div class="image-container">
+
+                    <img src="Healthcare-administration-analysis-with-KPI-dashboard-PPT-Template-784x441.png" alt="Hospital Management System Dashboard Mockup">
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!--feature $ service-->
+  <section class="features-section" id="features">
+    <div class="features-section-header">
+        <h2>Key Features & Services</h2>
+        <p>Powerful tools designed for all users in the healthcare environment, streamlining workflows and enhancing patient care.</p>
+    </div>
+
+    <div class="features-container">
+        <div class="feature-card">
+            <img src="scheduling.webp" alt="Appointment Scheduling Image" class="card-background-image">
+            <div class="card-header">
+                <div class="card-icon-bg">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h3>Appointment Scheduling</h3>
+            </div>
+            <p>Efficient appointment booking and management system with real-time availability tracking and automated reminders.</p>
+        </div>
+
+        <div class="feature-card">
+            <img src="records.png" alt="Patient Records Image" class="card-background-image">
+            <div class="card-header">
+                <div class="card-icon-bg">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h3>Patient Records</h3>
+            </div>
+            <p>Comprehensive electronic health records with complete medical history, test results, and treatment plans.</p>
+        </div>
+
+        <div class="feature-card">
+            <img src="doctor-dash.png" alt="Doctor Dashboard Image" class="card-background-image">
+            <div class="card-header">
+                <div class="card-icon-bg">
+                    <i class="fas fa-stethoscope"></i>
+                </div>
+                <h3>Doctor Dashboard</h3>
+            </div>
+            <p>Intuitive interface for doctors to manage patients, view schedules, and update medical records efficiently.</p>
+        </div>
+
+        <div class="feature-card">
+            <img src="prescription.jpg" alt="Prescription Management Image" class="card-background-image">
+            <div class="card-header">
+                <div class="card-icon-bg">
+                    <i class="fas fa-pills"></i>
+                </div>
+                <h3>Prescription Management</h3>
+            </div>
+            <p>Digital prescription system with medication tracking, dosage management, and pharmacy integration.</p>
+        </div>
+
+        <div class="feature-card">
+            <img src="patient-portal.png" alt="Patient Portal Image" class="card-background-image">
+            <div class="card-header">
+                <div class="card-icon-bg">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <h3>Patient Portal</h3>
+            </div>
+            <p>Self-service portal for patients to access records, book appointments, and communicate with healthcare providers.</p>
+        </div>
+
+        <div class="feature-card">
+            <img src="reports.webp" alt="Analytics & Reports Image" class="card-background-image">
+            <div class="card-header">
+                <div class="card-icon-bg">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Analytics & Reports</h3>
+            </div>
+            <p>Comprehensive reporting tools with insights into hospital operations, patient outcomes, and resource utilization.</p>
+        </div>
+    </div>
+ </section>
+
+  <!-- FOOTER -->
+     <footer class="healthcare-footer">
+        <div class="footer-container">
+
+            <div class="footer-col brand-info">
+                <div class="logo-name">
+                    HealthCarePlus
+                </div>
+                <p>
+                    Transforming healthcare management with innovative technology and comprehensive solutions.
+                </p>
+            </div>
+
+            <div class="footer-col quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col services">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Appointment Scheduling</a></li>
+                    <li><a href="#">Patient Records</a></li>
+                    <li><a href="#">Doctor Dashboard</a></li>
+                    <li><a href="#">Prescription Management</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:info&#64;healthcareplus.com">info&#64;healthcareplus.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>123 Healthcare Ave, Medical City</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="copyright">
+            © 2025 HealthCarePlus. All rights reserved. Built with modern technology for better healthcare.
+        </div>
+    </footer>
